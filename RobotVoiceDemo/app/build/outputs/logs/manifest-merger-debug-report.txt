@@ -20,6 +20,12 @@ ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app
 MERGED from [RobotVoiceDemo:olami-android-hotword-detect-1.1.1:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [RobotVoiceDemo:olami-android-client-2.6.0-full:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-client-2.6.0-full/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [RobotVoiceDemo:olami-android-tts-1.1.0.120:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-tts-1.1.0.120/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:7:42-71
 		INJECTED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml
@@ -58,6 +64,10 @@ application
 ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:16:5-42:19
 MERGED from [RobotVoiceDemo:olami-android-hotword-detect-1.1.1:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/AndroidManifest.xml:11:5-15:19
 MERGED from [RobotVoiceDemo:olami-android-tts-1.1.0.120:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-tts-1.1.0.120/unspecified/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:19:9-41
 	android:supportsRtl
