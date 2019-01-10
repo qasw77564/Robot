@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/res/merged/debug/layout/common_title.xml",
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/src/main/res/layout/common_title.xml"
+    },
+    {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/layout/common_title.xml",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/layout/common_title.xml"
     },
     {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/res/merged/debug/layout/activity_main.xml",

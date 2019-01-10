@@ -2,5 +2,9 @@
     {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/menu/main.xml"
     }
 ]

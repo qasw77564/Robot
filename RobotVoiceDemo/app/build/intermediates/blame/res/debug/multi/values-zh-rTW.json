@@ -98,5 +98,105 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/res/values-zh-rTW/values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 67,
+                    "endOffset": 180
+                },
+                "from": {
+                    "file": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/res/values-zh-rTW/values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 67,
+                        "endOffset": 180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 185,
+                    "endColumn": 65,
+                    "endOffset": 246
+                },
+                "from": {
+                    "file": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/res/values-zh-rTW/values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 185,
+                        "endColumn": 65,
+                        "endOffset": 246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 251,
+                    "endColumn": 71,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/res/values-zh-rTW/values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endColumn": 71,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 40,
+                    "endOffset": 359
+                },
+                "from": {
+                    "file": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/res/values-zh-rTW/values-zh-rTW.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 40,
+                        "endOffset": 359
+                    }
+                }
+            }
+        ]
     }
 ]

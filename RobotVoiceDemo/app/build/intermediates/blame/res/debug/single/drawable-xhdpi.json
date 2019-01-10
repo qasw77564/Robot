@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_back.png",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/drawable-xhdpi/icon_back.png"
+    },
+    {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_back.png",
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/src/main/res/drawable-xhdpi/icon_back.png"
     },
