@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotData/avatar-sdk-m_user.build.20180102_linux-x86/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_c847a5f54bf281e41524854ac5d89a8e403c3733.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/.gradle/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-with-mta/1.0.2/d52a3b82b9efa2b247d9496c5b5bbc8ca1f93eab/wechat-sdk-android-with-mta-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d52a3b82b9efa2b247d9496c5b5bbc8ca1f93eab">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/wechat-sdk-android-with-mta-1.0.2_abb8feb028b54de1f54b069348cb7b1b6a08b308.jar" />
+    </item>
+
+</items>
