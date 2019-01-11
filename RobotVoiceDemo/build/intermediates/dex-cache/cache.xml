@@ -3,21 +3,120 @@
 
     <item
         is-multidex="false"
-        jar="/Users/qasw77564/Documents/CGPT/RobotData/avatar-sdk-m_user.build.20180102_linux-x86/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_c847a5f54bf281e41524854ac5d89a8e403c3733.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/qasw77564/.gradle/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-with-mta/1.0.2/d52a3b82b9efa2b247d9496c5b5bbc8ca1f93eab/wechat-sdk-android-with-mta-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="d52a3b82b9efa2b247d9496c5b5bbc8ca1f93eab">
-        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/wechat-sdk-android-with-mta-1.0.2_abb8feb028b54de1f54b069348cb7b1b6a08b308.jar" />
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/wechat-sdk-android-with-mta-1.0.2_abb8feb028b54de1f54b069348cb7b1b6a08b308.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_a5f7ac8f6cfae547532eea251e0e6a9e5294704f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_f98fe956114a416bf8069b6f144a3fd3c734b88c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_8204bba249059fc3e71d88bd7d2b26e850369ce3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44c0408aa4b8a10a58e3fb5d432a6629fe93eb7e">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/RobotVoiceDemo-olami-android-hotword-detect-1.1.1-unspecified_a8ec61c216bbc666dfb7245e4923a42150b16bf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_6a5553deb1cf1d30ee2949a8899fb0c04efd9969.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_c1aaf0dac1c388ec896f4cb982dc4b36c03e22f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/gson-2.8.0_d714debc8afce34ff9e13a867b0a7541ece29332.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-tts-1.1.0.120/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="06ad2830f7c78b89569de7d26e072bd3053a0041">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/RobotVoiceDemo-olami-android-tts-1.1.0.120-unspecified_ede5ec47db94ef7e44af018f0ee4387ec1605c40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.3/cd0d5510908225f76c5fe5a3f1df4fa44866f81e/commons-net-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/commons-net-3.3_bd508560308fc1c414876d392440e656f5e8271c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-client-2.6.0-full/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d1d7b84c39d0ebbf76d53db35bfce7fcaf098c7">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/RobotVoiceDemo-olami-android-client-2.6.0-full-unspecified_1179c1dfb9d096bf788ad4df76211a7c7140816e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/.gradle/caches/modules-2/files-2.1/ai.olami/olami-java-client/1.5.0/c4c2e76f362e39ed3fd444af1992ef36ec703c19/olami-java-client-1.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4c2e76f362e39ed3fd444af1992ef36ec703c19">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/olami-java-client-1.5.0_dfc4874cc55f314351a93774d4156634a3c89cec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qasw77564/Documents/CGPT/RobotData/avatar-sdk-m_user.build.20180102_linux-x86/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_fa1481225350e4ec0d072a1272a10eb5d0c5f6c6.jar" />
     </item>
 
 </items>

@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="18" />
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -21,11 +21,7 @@
         <activity
             android:name="com.example.robotvoicedemo.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <service android:name=".MyService" android:enabled="true" />
         <activity android:name=".wxapi.WXEntryActivity"
@@ -39,6 +35,16 @@
             <data android:scheme="wxd930ea5d5a258f4f" />
         </intent-filter>
     </activity>
+        <activity
+            android:name=".VoiceAssistantActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
