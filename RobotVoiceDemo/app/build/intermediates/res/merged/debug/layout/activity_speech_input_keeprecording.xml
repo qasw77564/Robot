@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoiceAssistantActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/backgroud">
+
+        <ImageView
+            android:id="@+id/olamiLogo"
+            android:layout_width="175px"
+            android:layout_height="162px"
+            android:layout_above="@+id/whatCanOLAMIDo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="100px"
+            android:layout_marginEnd="100px"
+            android:background="@mipmap/booting_7" />
+
+        <TextView
+            android:id="@+id/sttResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="200px"
+            android:layout_marginTop="100px"
+            android:textColor="#9f9f9f"
+            android:textSize="55px" />
+
+        <TextView
+            android:id="@+id/ttsValue"
+            android:layout_width="1000dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="300px"
+            android:text="@string/HelloIAmOlami"
+            android:textColor="@android:color/white"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/whatCanOLAMIDo"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/volume"
+            android:layout_alignStart="@+id/volume"
+            android:text="@string/WhatCanOLAMIDo"
+            android:textColor="#9f9f9f"
+            android:textSize="16px" />
+        <TextView
+            android:id="@+id/volume"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25px"
+            android:layout_marginLeft="100px"
+            android:text="音量：0"
+            android:textColor="#9f9f9f"
+            android:textSize="16px" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+hotword-version=olami-20180131

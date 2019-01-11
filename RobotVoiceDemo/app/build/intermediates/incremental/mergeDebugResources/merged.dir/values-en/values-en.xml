@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="GetMicrophonePermission">取得麥克風權限成功</string>
-    <string name="GetMicrophonePermissionDenied">取得麥克風權限失敗</string>
-    <string name="GetWriteStoragePermission">取得記憶卡操作權限成功</string>
-    <string name="GetWriteStoragePermissionDenied">取得記憶卡操作權限失敗</string>
-    <string name="app_name">lib</string>
-</resources>
