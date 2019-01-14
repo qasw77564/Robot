@@ -28,9 +28,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import ai.olami.android.RecorderSpeechRecognizer;
 import ai.olami.android.hotwordDetection.HotwordDetect;
 import ai.olami.ids.IDSResult;
+import ai.olami.nli.NLIResult;
 
 
 public class MainActivity extends Activity implements View.OnClickListener {
@@ -90,44 +97,57 @@ public class MainActivity extends Activity implements View.OnClickListener {
 //            mTTSContent.setText(text);
 //            String a = mAsrContent.getText().toString();
 
-            switch (text){
-                case "打开微信":
-                    goToWechat();
-                    break;
-                case "打开為信":
-                    goToWechat();
-                    break;
-                case "微信":
-                    goToWechat();
-                    break;
-                case "為信":
-                    goToWechat();
-                    break;
-                case "打开来":
-                    goToLine();
-                    break;
-                case "打开赖":
-                    goToLine();
-                    break;
-                case "听音乐":
-                    goToKKBOX();
-                    break;
-                case "音乐":
-                    goToKKBOX();
-                    break;
-                case "KKBOX":
-                    goToKKBOX();
-                    break;
-                case "kkbox":
-                    goToKKBOX();
-                    break;
-                case "打开u too":
-                    goToYouTube();
-                    break;
-                case "打电话":
-                    callPhone("0907342949");
-                    break;
+
+            Set<String> wechats = new HashSet<String>(Arrays.<String>asList("打开微信", "打开為信","微信","為信"));
+            Set<String> lines = new HashSet<String>(Arrays.<String>asList("打开来","打开赖"));
+            Set<String> kkboxs = new HashSet<String>(Arrays.<String>asList("打开来","打开赖"));
+            Set<String> youTubes = new HashSet<String>(Arrays.<String>asList("打开来","打开赖"));
+
+            if (wechats.contains(text)){
+                goToWechat();
+            } else if (lines.contains(text)){
+                goToLine();
+            }else if (kkboxs.contains(text)){
+                goToKKBOX();
+            }else if (youTubes.contains(text)){
+                goToYouTube();
+            } else {
+                // API 識別語音
             }
+
+            OlamiAPIConfig.getInstance().postRecoginzer("", new OlamiCallback() {
+                @Override
+                public void onSuccess(String[] resp) {
+                    // resp
+                }
+
+                @Override
+                public void onSuccess(NLIResult[] resp) {
+
+                }
+
+                @Override
+                public void onError(String msg, Exception e) {
+
+                }
+            });
+
+            OlamiAPIConfig.getInstance().postRecoginzerNLI("", new OlamiCallback() {
+                @Override
+                public void onSuccess(String[] resp) {
+
+                }
+
+                @Override
+                public void onSuccess(NLIResult[] resp) {
+                    // resp
+                }
+
+                @Override
+                public void onError(String msg, Exception e) {
+
+                }
+            });
             return false;
         }
 
