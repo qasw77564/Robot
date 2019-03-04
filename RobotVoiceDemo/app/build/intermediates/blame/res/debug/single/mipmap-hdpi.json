@@ -1640,12 +1640,12 @@
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/loading_77.png"
     },
     {
-        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/listening_67.png",
-        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/listening_67.png"
-    },
-    {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/listening_95.png",
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/listening_95.png"
+    },
+    {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/listening_67.png",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/listening_67.png"
     },
     {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/waiting_143.png",
@@ -2188,12 +2188,12 @@
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_225.png"
     },
     {
-        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/waiting_109.png",
-        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_109.png"
-    },
-    {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/waiting_142.png",
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_142.png"
+    },
+    {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/waiting_109.png",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_109.png"
     },
     {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/wakeupwaitingtotalk_26.png",
@@ -2456,11 +2456,11 @@
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_210.png"
     },
     {
-        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/waiting_160.png",
-        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_160.png"
-    },
-    {
         "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/listening_93.png",
         "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/listening_93.png"
+    },
+    {
+        "merged": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/res/merged/debug/mipmap-hdpi/waiting_160.png",
+        "source": "/Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/res/mipmap-hdpi/waiting_160.png"
     }
 ]

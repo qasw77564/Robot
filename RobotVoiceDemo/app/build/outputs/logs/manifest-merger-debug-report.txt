@@ -24,6 +24,8 @@ MERGED from [com.android.support:support-v4:23.4.0] /Users/qasw77564/Documents/C
 MERGED from [RobotVoiceDemo:olami-android-client-2.6.0-full:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-client-2.6.0-full/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [RobotVoiceDemo:olami-android-hotword-detect-1.1.1:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-hotword-detect-1.1.1/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [RobotVoiceDemo:olami-android-tts-1.1.0.120:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-tts-1.1.0.120/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.wang.avi/library/2.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bigkoo:alertview:1.0.3] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.bigkoo/alertview/1.0.3/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -79,55 +81,55 @@ MERGED from [RobotVoiceDemo:olami-android-tts-1.1.0.120:unspecified] /Users/qasw
 	android:theme
 		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:20:9-40
 activity#com.example.robotvoicedemo.MainActivity
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:21:9-25:20
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:21:9-29:20
 	android:label
 		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:23:13-45
 	android:name
 		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:22:13-67
-service#com.example.robotvoicedemo.MyService
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:26:9-69
-	android:enabled
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:26:44-66
-	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:26:18-43
-activity#com.example.robotvoicedemo.wxapi.WXEntryActivity
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:27:9-37:16
-	android:launchMode
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:29:9-39
-	android:exported
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:28:9-32
-	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:27:19-56
-intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:30:9-36:25
-action#android.intent.action.VIEW
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:31:13-65
-	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:31:21-62
-category#android.intent.category.DEFAULT
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:33:13-72
-	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:33:23-69
-data
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:35:13-57
-	android:scheme
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:35:19-54
-activity#com.example.robotvoicedemo.VoiceAssistantActivity
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:38:9-47:20
-	android:label
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:40:13-45
-	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:39:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:41:13-45:29
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:42:17-69
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:42:25-66
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:44:17-77
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:44:27-74
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:27:27-74
+service#com.example.robotvoicedemo.MyService
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:30:9-69
+	android:enabled
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:30:44-66
+	android:name
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:30:18-43
+activity#com.example.robotvoicedemo.wxapi.WXEntryActivity
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:31:9-41:16
+	android:launchMode
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:33:9-39
+	android:exported
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:32:9-32
+	android:name
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:31:19-56
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:34:9-40:25
+action#android.intent.action.VIEW
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:35:13-65
+	android:name
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:35:21-62
+category#android.intent.category.DEFAULT
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:37:13-72
+	android:name
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:37:23-69
+data
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:39:13-57
+	android:scheme
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:39:19-54
+activity#com.example.robotvoicedemo.examplecandeleted.VoiceAssistantActivity
+ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:42:9-47:20
+	android:label
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/src/main/AndroidManifest.xml:43:13-69
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from [RobotVoiceDemo:olami-android-client-2.6.0-full:unspecified] /Users/qasw77564/Documents/CGPT/RobotAndroid/Robot/RobotVoiceDemo/app/build/intermediates/exploded-aar/RobotVoiceDemo/olami-android-client-2.6.0-full/unspecified/AndroidManifest.xml:11:5-71
 	android:name

@@ -28,6 +28,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.robotvoicedemo.util.Tools;
+import com.google.common.base.Strings;
+import com.google.common.collect.Lists;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -36,12 +40,18 @@ import java.util.Set;
 
 import ai.olami.android.RecorderSpeechRecognizer;
 import ai.olami.android.hotwordDetection.HotwordDetect;
+import ai.olami.cloudService.APIResponse;
+import ai.olami.cloudService.APIResponseData;
+import ai.olami.cloudService.TextRecognizer;
 import ai.olami.ids.IDSResult;
+import ai.olami.ids.WeatherData;
 import ai.olami.nli.NLIResult;
 
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
+    //可從此下面去搜尋有哪些 ai.olami.ids Data
+    private String TAG = MainActivity.class.getSimpleName();
     private ImageView mBtnBack;
     private TextView mAsrStatus;
     private TextView mAsrVolume;
@@ -97,15 +107,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
 //            mTTSContent.setText(text);
 //            String a = mAsrContent.getText().toString();
 
-
-            Set<String> wechats = new HashSet<String>(Arrays.<String>asList("打开微信", "打开為信","微信","為信"));
             Set<String> lines = new HashSet<String>(Arrays.<String>asList("打开来","打开赖"));
             Set<String> kkboxs = new HashSet<String>(Arrays.<String>asList("打开来","打开赖"));
             Set<String> youTubes = new HashSet<String>(Arrays.<String>asList("打开来","打开赖"));
+            Set<String> wheather = new HashSet<String>(Arrays.asList("天气","今天天气","新竹天气","台北天气"));
 
-            if (wechats.contains(text)){
-                goToWechat();
-            } else if (lines.contains(text)){
+            if (lines.contains(text)){
                 goToLine();
             }else if (kkboxs.contains(text)){
                 goToKKBOX();
@@ -113,41 +120,24 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 goToYouTube();
             } else {
                 // API 識別語音
+                OlamiAPIConfig.getInstance().postRecoginzer("", new OlamiCallback() {
+                    @Override
+                    public void onSuccess(APIResponseData data) {
+                        // resp
+//                        data.getNLIResults()[0].getDescObject().getName().
+                        List<NLIResult> nliResults = Lists.newArrayList(data.getNLIResults());
+                        if(!nliResults.isEmpty()){
+//                            nliResults.get(0).getDataObjects().get(0)
+                        }
+                    }
+
+                    @Override
+                    public void onError(String msg, Exception e) {
+
+                    }
+                });
+
             }
-
-            OlamiAPIConfig.getInstance().postRecoginzer("", new OlamiCallback() {
-                @Override
-                public void onSuccess(String[] resp) {
-                    // resp
-                }
-
-                @Override
-                public void onSuccess(NLIResult[] resp) {
-
-                }
-
-                @Override
-                public void onError(String msg, Exception e) {
-
-                }
-            });
-
-            OlamiAPIConfig.getInstance().postRecoginzerNLI("", new OlamiCallback() {
-                @Override
-                public void onSuccess(String[] resp) {
-
-                }
-
-                @Override
-                public void onSuccess(NLIResult[] resp) {
-                    // resp
-                }
-
-                @Override
-                public void onError(String msg, Exception e) {
-
-                }
-            });
             return false;
         }
 
@@ -341,20 +331,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    private void goToWechat(){
-        try {
-            Intent intent = new Intent(Intent.ACTION_MAIN);
-            ComponentName cmp = new ComponentName("com.tencent.mm","com.tencent.mm.ui.LauncherUI");
-            intent.addCategory(Intent.CATEGORY_LAUNCHER);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            intent.setComponent(cmp);
-            startActivity(intent);
-        } catch (ActivityNotFoundException e) {
-            // TODO: handle exception
-//            getBaseActivity().showToastLong("检查到您手机没有安装微信，请安装后使用该功能");
-        }
-    }
-
     private void goToLine(){
         try {
             Intent intent = new Intent(Intent.ACTION_MAIN);
@@ -421,7 +397,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    @Override
+
+        @Override
     protected void onDestroy() {
         super.onDestroy();
         mSpeechManager.setAsrListener(null);

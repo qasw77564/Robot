@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import ai.olami.cloudService.APIConfiguration;
 import ai.olami.cloudService.APIResponse;
+import ai.olami.cloudService.APIResponseData;
 import ai.olami.cloudService.TextRecognizer;
 import ai.olami.nli.NLIResult;
 
@@ -35,7 +36,8 @@ public class OlamiAPIConfig {
             if (response1.ok() && response1.hasData()) {
                 // 取得分詞結果
                 String[] ws = response1.getData().getWordSegmentation();
-                callback.onSuccess(ws);
+                APIResponseData apiResponseData = response1.getData();
+                callback.onSuccess(apiResponseData);
             }else {
                 callback.onError("", new RuntimeException("err_msg"));
             }
@@ -44,24 +46,6 @@ public class OlamiAPIConfig {
             callback.onError(e.getMessage(), e);
         }
 
-    }
-
-
-    public void postRecoginzerNLI(String text, OlamiCallback callback) {
-        try {
-            TextRecognizer recoginzer = new TextRecognizer(config);
-            APIResponse response1 = recoginzer.requestWordSegmentation(text);
-            if (response1.ok() && response1.hasData()) {
-                // 取得分詞結果
-                NLIResult[] ws = response1.getData().getNLIResults();
-                callback.onSuccess(ws);
-            }else {
-                callback.onError("", new RuntimeException("err_msg"));
-            }
-
-        }catch (Exception e) {
-            callback.onError(e.getMessage(), e);
-        }
     }
 }
 
